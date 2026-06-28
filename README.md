@@ -8,7 +8,8 @@ When the bash script is executed, the bash script confirms the health of a virtu
 1. CPU
 2. Disk space/usage
 3. Memory
-4. Load Average, etc.
+4. Load Average,
+5. Uptime etc.
 
 When someone runs "./health_check.sh", it should output for instance:
 
