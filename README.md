@@ -10,6 +10,7 @@ When the bash script is executed, the bash script confirms the health of a virtu
 
 When someone runs "./health_check.sh", it should output for instance:
 
+```
 VM HEALTH STATUS
 =========================
 
@@ -19,6 +20,7 @@ Disk Usage:       Warning
 Load Average:     Healthy
 
 Overall Status: WARNING
+```
 
 Please note that the bash script should also support a command-line argument named "explain". 
 So that when passed, "explain" provides a detailed summary of the health status.
