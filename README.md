@@ -3,12 +3,12 @@ Health check for a virtual machine
 The goal is to create a GitHub repository that contains a bash script. 
 When the bash script is executed, the bash script confirms the health of a virtual machine by looking at parameters such:
 
-'''
+```
 ** 1. CPU, 
 2. Disk space/usage, 
 3. Memory, 
 4. Load Average, etc. **
-'''
+```
 
 When someone runs "./health_check.sh", it should output for instance:
 
